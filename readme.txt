@@ -1,5 +1,5 @@
 --Readme document for *Daniel Ho Kim*, *danihk15@uci.edu*--
-
+Partner: Hyeonbeen Han, hyeonbeh@uci.edu
 1. How many assignment points do you believe you completed (replace the *'s with your numbers)?
 
 10/10
@@ -24,6 +24,12 @@ ChatGPT(https://chatgpt.com/): While doing part 4 and 5, this was required "<!--
 I did this project with Hyeonbeen Han, who is also in IN4MATX 133. 
 While working on the project, we kept on communicating in person. 
 
+Hyeonbeen Han
+My primary responsibilities included implementing the Spotify API service, the About component, the Search component, the Carousel, the Carousel Card, and the Track List.
+Daniel primarily implemented the Artist Page, Popularity Thermometer, Album Page, and Track Page.
+We collaborated on integrating the components, resolving GitHub branch and backend setup issues, and preparing the final submission.
+
+
 
 
 5. Did you add a bonus feature to your submission? If so, what is it and how should we see it?
@@ -32,4 +38,16 @@ No, I don't have Spotify subscribtion.
 
 6. Is there anything special we need to know in order to run your code?
 The frontend and backend need to run separately. 
+For local testing, we used the dummy Spotify webserver provided with the assignment.
 
+Start the dummy backend:
+
+cd dummy_webserver
+npm install
+npm start
+
+Start the Angular frontend in another terminal:
+
+cd client
+npm install
+npx ng serve
